@@ -1,0 +1,1 @@
+var json_Polindes_10 = {"type":"FeatureCollection","name":"Polindes_10","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":null},"geometry":{"type":"Point","coordinates":[123.393831856768429,-8.434182418642212]}}]}

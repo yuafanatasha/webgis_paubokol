@@ -1,0 +1,1 @@
+var json_TempatIbadah_11 = {"type":"FeatureCollection","name":"TempatIbadah_11","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":null},"geometry":{"type":"Point","coordinates":[123.394336545461158,-8.433789740323403]}}]}

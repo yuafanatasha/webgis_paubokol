@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Responsive Admin &amp; Dashboard Template based on Bootstrap 5">
+	<meta name="author" content="AdminKit">
+	<meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+
+	<link rel="canonical" href="https://demo-basic.adminkit.io/" />
+
+	<title>AdminKit Demo - Bootstrap 5 Admin Template</title>
+
+	<link href="css/app.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Dancing+Script&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* Gaya untuk teks "Hello, I'm Tahi Satner" */
+        .banner_greeting {
+            color: #b1364c; /* Merah */
+            font-size: 4rem; /* Ukuran font besar */
+            font-family: 'Dancing Script', cursive; /* 
+            font-weight: bold ;/* Menebalkan teks */
+			margin-top: -60px;
+        }
+
+        .highlight-text {
+            color: #ff5733; /* Merah cerah untuk 'Tahi Satner' */
+        }
+
+		.get-to-know-text {
+    	color: #6c757d; /* Warna abu-abu */
+   		font-size: 1.2rem; /* Ukuran font sedikit lebih kecil */
+    	font-family: 'Roboto', sans-serif; /* Menggunakan font Roboto */
+    	margin-top: 40px; /* Jarak atas */
+    	font-weight: 400;
+		}
+
+        /* Gaya untuk tombol */
+        .custom-btn {
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+            margin: 5px;
+        }
+
+        .hire-btn {
+            background-color: #b1364c;
+            color: #fff;
+        }
+
+        .hire-btn:hover {
+            background-color: #8c2d3e; /* Warna lebih gelap saat hover */
+        }
+
+        .get-cv-btn {
+            background-color: #263858;
+            color: #fff;
+        }
+
+        .get-cv-btn:hover {
+            background-color: #1c2d42; /* Warna lebih gelap saat hover */
+        }
+
+        /* Mengatur tampilan gambar pada sisi kanan */
+        .home_right_img img {
+            width: 100%; /* Mengatur gambar agar responsif */
+        }
+
+		.info-paubokol-text {
+    	flex: 1; /* Kolom ini mengambil ruang yang tersedia */
+    	padding-right: 20px; /* Memberikan ruang antara teks dan gambar */
+		}
+
+		/* Gaya gambar agar responsif dan proporsional */
+		.profile-img {
+    	max-width: 350px;  /* Menentukan ukuran maksimal lebar gambar */
+    	height: auto;      /* Menjaga proporsi gambar */
+    	border-radius: 8px; /* Opsional, untuk memberikan sudut gambar yang lebih halus */
+		}
+		
+    </style>
+</head>
+
+<body>
+	<div class="wrapper">
+		<nav id="sidebar" class="sidebar js-sidebar">
+			<div class="sidebar-content js-simplebar">
+				<a class="sidebar-brand" href="index.html">
+          <span class="align-middle">Geoportal Paubokol</span>
+        		</a>
+				<ul class="sidebar-nav">
+					<li class="sidebar-item active">
+						<a class="sidebar-link" href="index.html">
+							<i class="align-middle" data-feather="home"></i> <span class="align-middle">Home</span>
+						</a>
+					</li>
+					<li class="sidebar-item"> <!-- Set active class here -->
+						<a class="sidebar-link" href="webmap.html">
+							<i class="align-middle" data-feather="map"></i> <span class="align-middle">Webmap</span>
+						</a>
+					</li>
+				
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="download.html">
+							<i class="align-middle" data-feather="download"></i> <span class="align-middle">Download Map</span>
+						</a>
+					</li>
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="about-us.html">
+							<i class="align-middle" data-feather="info"></i> <span class="align-middle">About Us</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="main">
+			<nav class="navbar navbar-expand navbar-light navbar-bg">
+				<a class="sidebar-toggle js-sidebar-toggle">
+					<i class="hamburger align-self-center"></i>
+				</a>
+			
+				<div class="navbar-collapse collapse">
+					<ul class="navbar-nav navbar-align">
+						
+						<!-- Other nav items -->
+					</ul>
+				</div>
+			
+				<!-- Centered title with custom fonts and colors -->
+				<div class="mx-auto text-center">
+					<span style="color: #263858; font-weight: bold; font-size: 1.5rem; font-family: 'Roboto', sans-serif;">Geoportal</span>
+					<span style="color: #b1364c; font-size: 1.5rem; font-family: 'Roboto', sans-serif;">Paubokol</span>
+				</div>
+			
+				<!-- User profile and settings -->
+				<div class="navbar-collapse collapse">
+					<ul class="navbar-nav navbar-align">
+					
+					</ul>
+				</div>
+			</nav>
+
+            <main class="content">
+				<div class="container-fluid p-0">
+                    <div class="row">
+                        <div class="row justify-content-center align-items-center">
+							<!-- Kolom teks -->
+							<div class="col-12 col-md-6 text-center">
+								<div class="banner_content">
+									<h3 class="banner_greeting">Hello!</h3>
+									<h1 class="banner_title">Selamat Datang di Geoportal Paubokol</h1>
+									<!-- Tambahkan teks baru di bawah judul -->
+									<p class="get-to-know-text">Get to know more about Paubokol</p>
+									<div class="d-flex justify-content-center mt-4">
+											<!-- Tombol Hire Me -->
+										<a class="btn custom-btn hire-btn" href="#about-paubokol">Tentang Paubokol</a>
+										<!-- Tombol Get CV -->
+									
+									</div>
+								</div>
+							</div>
+							<!-- Kolom gambar -->
+							<div class="col-lg-6 d-none d-lg-block">
+								<div class="home_right_img">
+									<img class="img-fluid" src="img/avatars/avatar-6.png" alt="Tahi Satner">
+								</div>
+							</div>
+						</div>
+                    </div>
+                    
+                    <h1 class="h3 mb-3" id="about-paubokol">Tentang <strong>Paubokol</strong></h1>
+					<div class="row">
+						<div class="col-12 col-md-12 col-xxl-6 d-flex order-3 order-xxl-2">
+							<div class="card flex-fill w-100">
+								
+								<div class="card-body px-4">
+									<div id="world_map" style="height:350px;"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-12 col-md-12 col-xxl-6 d-flex order-3 order-xxl-2">
+							<div class="card flex-fill">
+	
+								<div class="card-body">
+									<div class="d-flex">
+										<!-- Kolom kiri untuk teks mengenai Paubokol -->
+										<div class="info-paubokol-text">
+											<h6 class="mb-4">Profil Desa</h6>
+											<p>Paubokol merupakan sebuah desa yang terletak di Kabupaten Lembata, Provinsi Nusa Tenggara Timur, yang dikenal dengan keindahan alamnya dan kekayaan sumber daya alam yang melimpah. Terletak di daerah yang subur, Desa Paubokol memiliki potensi besar dalam sektor pertanian, dengan tanah yang sangat mendukung berbagai jenis tanaman. Desa ini dikenal sebagai penghasil berbagai macam hasil pertanian unggulan, mulai dari padi, jagung, hingga tanaman hortikultura seperti sayuran dan buah-buahan. Keberagaman tanaman yang tumbuh di Desa Paubokol menjadikannya sebagai daerah yang kaya akan hasil bumi.</p>
+											
+										</div>
+					
+										<!-- Kolom kanan untuk gambar profil -->
+										<div class="ml-4">
+											<img src="img/avatars/profil.jpeg" alt="Profil Paubokol" class="img-fluid profile-img">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+                </div>
+            </main>
+
+            <footer class="footer">
+				<div class="container-fluid">
+					<div class="row text-muted">
+						<div class="col-6 text-start">
+							<p class="mb-0">
+								<a class="text-muted" href="https://www.linkedin.com/in/yuafanatasha/" target="_blank"><strong>Yuafa</strong></a> &copy;
+							</p>
+						</div>
+						
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+
+	<script src="js/app.js"></script>
+
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			var markers = [{
+					coords: [-8.4462, 123.3919],
+					name: "Paubokol"
+				}
+				
+			];
+			var map = new jsVectorMap({
+				map: "world",
+				selector: "#world_map",
+				zoomButtons: true,
+				markers: markers,
+				markerStyle: {
+					initial: {
+						r: 9,
+						strokeWidth: 7,
+						stokeOpacity: .4,
+						fill: window.theme.primary
+					},
+					hover: {
+						fill: window.theme.primary,
+						stroke: window.theme.primary
+					}
+				},
+				zoomOnScroll: false
+			});
+			window.addEventListener("resize", () => {
+				map.updateSize();
+			});
+		});
+	</script>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			// Menangani klik pada tombol "Hire Me"
+			document.querySelector('.hire-btn').addEventListener('click', function(e) {
+				e.preventDefault(); // Mencegah aksi default tombol jika ada
+
+				// Mencari elemen dengan ID 'about-paubokol'
+				const targetElement = document.getElementById('about-paubokol');
+				
+				// Scroll ke elemen tersebut dengan smooth scrolling
+				targetElement.scrollIntoView({
+					behavior: 'smooth',
+					block: 'start'
+				});
+			});
+		});
+	</script>
+
+</body>
+</html>
